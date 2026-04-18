@@ -8,7 +8,11 @@ EpiAlert is a real-time epidemic surveillance system for India that aggregates a
 
 ## Problem Statement
 
-Disease outbreaks in India — dengue, cholera, typhoid, viral fever — often go undetected until they have already spread across multiple localities. Hospitals and clinics collect patient data daily, but this data sits in silos. No mechanism exists to aggregate symptom patterns across a region in near real-time and raise an alert before an outbreak escalates.
+In recent years, the world has witnessed several sudden outbreaks such as epidemics and pandemics. Often, these diseases spread rapidly because early warning signals go unnoticed. By the time the outbreak is detected, the disease may already have spread across multiple regions.
+
+What if we could detect these outbreaks at the very beginning of their spread?
+
+Early detection would allow health authorities to take preventive measures immediately, helping contain the spread and potentially preventing large-scale epidemics.
 
 **Health authorities react after the outbreak. There is no proactive, data-driven early warning layer.**
 
