@@ -156,5 +156,8 @@ streamlit-folium
 
 ---
 
+## App Link
+https://bharatbricks-epialert.streamlit.app/
+
 
 
