@@ -35,6 +35,15 @@ EpiAlert solves this by providing an automated anomaly detection pipeline that c
 
 ---
 
+## Databricks Tools Used
+
+| Tool | Usage |
+|------|-------|
+| **IndicAI** | Translates regional language symptom terms into English before processing, enabling self-serve data entry by local clinic staff in their native language |
+
+---
+---
+
 ## Installation & Setup
 
 ### Prerequisites
@@ -108,5 +117,6 @@ streamlit-folium
 
 ## Pipeline Architecture
 
-<img width="1024" height="624" alt="image" src="https://github.com/user-attachments/assets/f2bb0bd3-e620-4cce-ae0e-d4038d88eb68" />
+<img width="712" height="337" alt="image" src="https://github.com/user-attachments/assets/e93b39d8-8ab1-4e9f-9a71-c31472bd421f" />
+
 
