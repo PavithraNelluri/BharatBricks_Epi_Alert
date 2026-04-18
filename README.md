@@ -41,7 +41,14 @@ Visualization & Alerting
 The detected high-risk locations are immediately highlighted on an interactive map dashboard.
 Regions with potential outbreaks are marked in red, enabling quick identification of emerging hotspots.
 
+---
+## Key Features
 
+1. Multilingual Symptom Recognition
+Patients often describe symptoms in regional languages. Our system supports native language inputs using Indic AI, allowing symptoms such as “irumal” (Tamil for cough) or similar regional terms to be automatically translated and standardized into medical symptom categories. This ensures accurate analysis across diverse linguistic regions.
+
+2. Seasonal Context Awareness
+Certain diseases follow seasonal patterns—for example, colds and flu are more common during winter. Our system incorporates seasonal trend analysis, comparing current symptom spikes with expected seasonal patterns. This helps distinguish between normal seasonal increases and unusual anomalies that may signal an emerging outbreak.
 
 ---
 
