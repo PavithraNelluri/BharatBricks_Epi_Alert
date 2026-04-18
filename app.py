@@ -152,7 +152,17 @@ def engineer_features(df):
 # STREAMLIT UI
 # ═══════════════════════════════════════════════════════════════════════════
 
-# Sidebar for model upload
+# Load default model.pkl
+try:
+    with open("model.pkl", "rb") as f:
+        if_model = pickle.load(f)
+    st.sidebar.success("✓ Default model loaded successfully!")
+    st.sidebar.info(f"Model expects {if_model.n_features_in_} features")
+except Exception as e:
+    st.sidebar.error(f"Error loading default model: {e}")
+    if_model = None
+
+# Optionally allow user to upload a model to override default
 st.sidebar.header("⚙️ Configuration")
 model_file = st.sidebar.file_uploader(
     "Upload Trained Model (model.pkl)",
@@ -163,14 +173,12 @@ model_file = st.sidebar.file_uploader(
 if model_file is not None:
     try:
         if_model = pickle.load(model_file)
-        st.sidebar.success("✓ Model loaded successfully!")
+        st.sidebar.success("✓ Uploaded model loaded successfully!")
         st.sidebar.info(f"Model expects {if_model.n_features_in_} features")
     except Exception as e:
-        st.sidebar.error(f"Error loading model: {e}")
+        st.sidebar.error(f"Error loading uploaded model: {e}")
         if_model = None
-else:
-    st.sidebar.warning("⚠ Please upload a trained model file")
-    if_model = None
+
 
 # Main content area
 st.header("📊 Input Data")
