@@ -1,4 +1,26 @@
-command: ['streamlit', 'run', 'app.py']
+command: [ "streamlit", "run", "app.py" ]
 env:
-  - name: 'STREAMLIT_GATHER_USAGE_STATS'
-    value: 'false'
+  - name: "STREAMLIT_GATHER_USAGE_STATS"
+    value: "false"
+  - name: "DATABRICKS_APP_NAME"
+    value: "epi-alert"
+  - name: "DATABRICKS_APP_PORT"
+    value: "8000"
+  - name: "DATABRICKS_APP_URL"
+    value: "https://epi-alert-7474656779898385.aws.databricksapps.com"
+  - name: "DATABRICKS_CLIENT_ID"
+    value: "f0ec610a-d832-4676-bdab-18f63146ea6f"
+  - name: "DATABRICKS_CLIENT_SECRET"
+    value: "***"
+  - name: "DATABRICKS_HOST"
+    value: "dbc-19ef0213-e0c6.cloud.databricks.com"
+  - name: "DATABRICKS_WORKSPACE_ID"
+    value: "7474656779898385"
+  - name: "PORT"
+    value: "8000"
+  - name: "STREAMLIT_SERVER_PORT"
+    value: "8000"
+  - name: "STREAMLIT_SERVER_HEADLESS"
+    value: "true"
+  - name: "STREAMLIT_SERVER_ADDRESS"
+    value: "0.0.0.0"
