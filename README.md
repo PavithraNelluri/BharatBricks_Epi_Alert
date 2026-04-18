@@ -32,15 +32,7 @@ Using this data across multiple regions, our system continuously monitors patter
 ---
 ## Methodology
 
-Anomaly Detection
-We first analyze daily symptom counts across different pincodes.
-An Isolation Forest model detects abnormal spikes in symptom cases compared to historical trends.
-Disease Prediction
-When an anomaly is detected, the reported symptoms are grouped and passed to a Disease Prediction model built using a Random Forest classifier.
-This model predicts the most probable disease associated with the observed symptom cluster.
-Visualization & Alerting
-The detected high-risk locations are immediately highlighted on an interactive map dashboard.
-Regions with potential outbreaks are marked in red, enabling quick identification of emerging hotspots.
+
 ---
 
 ---
