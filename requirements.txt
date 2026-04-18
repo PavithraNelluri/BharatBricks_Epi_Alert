@@ -1,0 +1,19 @@
+# EpiAlert Streamlit App Requirements
+# Python 3.9+ recommended
+
+# Core web framework
+streamlit>=1.28.0
+
+# Map visualization
+folium>=0.14.0
+streamlit-folium>=0.15.0
+
+# Machine learning
+scikit-learn>=1.6.1
+numpy>=1.26.0
+
+# Data manipulation
+pandas>=2.0.0
+
+# Additional utilities
+python-dateutil>=2.8.2
