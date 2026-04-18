@@ -68,13 +68,13 @@ Certain diseases follow seasonal patterns—for example, colds and flu are more 
 
 ---
 
-## Databricks Tools Used
+## Self-Serve Resources 
 
 | Tool | Usage |
 |------|-------|
 | **IndicAI** | Translates regional language symptom terms into English before processing, enabling self-serve data entry by local clinic staff in their native language |
 
----
+
 ---
 
 ## Installation & Setup
