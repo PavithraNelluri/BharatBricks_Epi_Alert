@@ -103,4 +103,6 @@ streamlit-folium
 ```
 
 ## Pipeline Architecture
-<img width="1024" height="624" alt="image" src="https://github.com/user-attachments/assets/599389b2-9afc-4605-b5c7-918310c199ce" />
+
+<img width="1024" height="624" alt="image" src="https://github.com/user-attachments/assets/f2bb0bd3-e620-4cce-ae0e-d4038d88eb68" />
+
