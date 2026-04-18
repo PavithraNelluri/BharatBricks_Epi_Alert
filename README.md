@@ -102,6 +102,10 @@ folium
 streamlit-folium
 ```
 
+### Usage
+> 💡 **Quick Start:** Download the [`sample_input.csv`](./sample_input.csv) file from this repo
+> and upload it using the **Upload CSV** option in the app to try EpiAlert instantly.
+
 ## Pipeline Architecture
 
 <img width="1024" height="624" alt="image" src="https://github.com/user-attachments/assets/f2bb0bd3-e620-4cce-ae0e-d4038d88eb68" />
