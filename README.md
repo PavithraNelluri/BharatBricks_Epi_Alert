@@ -16,7 +16,7 @@ Early detection would allow health authorities to take preventive measures immed
 
 
 
----
+
 ---
 ## Proposed Solution
 We propose a data-driven AI system for early outbreak detection using daily hospital data.
@@ -57,7 +57,7 @@ Regions with potential outbreaks are marked in red, enabling quick identificatio
 | **Databricks Jobs / Workflows** | Scheduling automated retraining and scoring pipelines |
 | **Unity Catalog** | Governing access to health data assets across the platform |
 
----
+
 
 ---
 
@@ -141,8 +141,12 @@ streamlit-folium
 > 💡 **Quick Start:** Download the [`sample_input.csv`](./sample_input.csv) file from this repo
 > and upload it using the **Upload CSV** option in the app to try EpiAlert instantly.
 
+---
+
 ## Pipeline Architecture
 
 <img width="712" height="337" alt="image" src="https://github.com/user-attachments/assets/e93b39d8-8ab1-4e9f-9a71-c31472bd421f" />
 
+---
 
+## Video
