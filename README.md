@@ -49,7 +49,7 @@ EpiAlert solves this by providing an automated anomaly detection pipeline that c
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/epialert.git
+git clone https://github.com/PavithraNelluri/BharatBricks_Epi_Alert
 cd epialert
 
 # 2. Create a virtual environment
@@ -71,7 +71,7 @@ streamlit run app.py
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/epialert.git
+git clone https://github.com/PavithraNelluri/BharatBricks_Epi_Alert
 cd epialert
 
 # 2. Create a virtual environment
