@@ -14,12 +14,34 @@ What if we could detect these outbreaks at the very beginning of their spread?
 
 Early detection would allow health authorities to take preventive measures immediately, helping contain the spread and potentially preventing large-scale epidemics.
 
-**Health authorities react after the outbreak. There is no proactive, data-driven early warning layer.**
 
-EpiAlert solves this by providing an automated anomaly detection pipeline that continuously monitors symptom cluster frequencies across pincodes and raises alerts the moment statistical deviations are observed.
 
 ---
+---
+## Proposed Solution
+We propose a data-driven AI system for early outbreak detection using daily hospital data.
 
+Hospitals periodically submit anonymized patient data containing:
+
+Patient pincode (location)
+Symptoms reported
+
+Using this data across multiple regions, our system continuously monitors patterns in symptom reports.
+---
+
+---
+## Methodology
+
+Anomaly Detection
+We first analyze daily symptom counts across different pincodes.
+An Isolation Forest model detects abnormal spikes in symptom cases compared to historical trends.
+Disease Prediction
+When an anomaly is detected, the reported symptoms are grouped and passed to a Disease Prediction model built using a Random Forest classifier.
+This model predicts the most probable disease associated with the observed symptom cluster.
+Visualization & Alerting
+The detected high-risk locations are immediately highlighted on an interactive map dashboard.
+Regions with potential outbreaks are marked in red, enabling quick identification of emerging hotspots.
+---
 
 ---
 
